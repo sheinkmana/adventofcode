@@ -19,6 +19,3 @@ for l in lines:
             max_three.append(sum_caltwo)
         sum_caltwo = 0
 print(max_cal, max_three, sum(max_three))
-#%%
-
-#%%
