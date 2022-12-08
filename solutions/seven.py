@@ -15,7 +15,7 @@ for command in lines:
                     directory = ['']
                 else:
                    directory.append(command[2])
-        elif command[0] != "dir":
+        elif not (command[0] == "dir"):
             dir_str = ''
             for dir in directory:
                 dir_str += dir
