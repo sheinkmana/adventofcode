@@ -1,9 +1,9 @@
 from collections import defaultdict
-
-directory = ['']
-files = defaultdict(int)
 with open('input7.txt') as f:
     lines = f.readlines()
+    
+directory = ['']
+files = defaultdict(int)
 
 for command in lines:
         command = command.strip().split()
